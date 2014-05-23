@@ -48,4 +48,6 @@ group :development, :test do
   gem 'launchy'
   gem 'factory_girl_rails'
   gem 'ffaker'
+  gem 'simplecov', '~> 0.7.1'
+  gem 'rails_12factor', group: :production
 end
